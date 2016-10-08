@@ -20,7 +20,6 @@ const express = require('express'),
     pkg = require('../package.json'),
     env = process.env.NODE_ENV || 'development';
 
-console.log(env);
 /**
  * Expose
  */
