@@ -1,0 +1,53 @@
+{
+  "name": "api-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardin1992/api-spa.git"
+  },
+  "author": "Joao Antonio Gardin Vieira <gardin1992@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gardin1992/api-spa/issues"
+  },
+  "homepage": "https://github.com/gardin1992/api-spa#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "compression": "^1.6.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-alpha.1",
+    "cross-env": "^3.1.1",
+    "csurf": "^1.9.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "forever": "^0.15.2",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.3",
+    "mongoose-user": "0.0.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "view-helpers": "^0.1.5",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-tape-runner": "^2.0.1",
+    "eslint": "^3.7.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.0",
+    "tape": "^4.6.2"
+  }
+}
