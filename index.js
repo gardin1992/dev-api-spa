@@ -18,7 +18,7 @@ const fs = require('fs'),
     passport = require('passport'),
     config = require('./config'),
     models = join(__dirname, 'app/models'),
-    port = process.env.PORT || 5000;
+    port = process.env.PORT || 3000;
 
 const app = express(),
     connection = connect();
